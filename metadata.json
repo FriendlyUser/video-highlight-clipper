@@ -1,0 +1,5 @@
+{
+  "name": "VideoCutter AI",
+  "description": "AI-powered video highlight extractor and editor using Gemini 2.0 Flash and FFmpeg WASM. Upload a video, get auto-generated viral clips.",
+  "requestFramePermissions": []
+}
