@@ -3,7 +3,7 @@ export const GEMINI_MODEL = 'gemini-2.0-flash';
 
 // Max file size for client-side base64 handling. 
 // Reduced to 50MB to prevent browser crash during Base64 conversion in the main thread.
-export const MAX_FILE_SIZE_BYTES = 100 * 1024 * 1024; 
+export const MAX_FILE_SIZE_BYTES = 400 * 1024 * 1024; 
 
 // FFmpeg Configuration
 // We use specific versions to ensure compatibility.

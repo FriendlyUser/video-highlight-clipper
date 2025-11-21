@@ -126,7 +126,7 @@ const App: React.FC = () => {
             <h1 className="font-bold text-xl tracking-tight">VideoCutter<span className="text-indigo-400">AI</span></h1>
           </div>
           <div className="text-sm font-medium text-slate-400 border border-slate-800 rounded-full px-3 py-1 bg-slate-900/50">
-            Powered by Gemini 2.0 Flash
+            Powered by Gemini 2.5 Flash
           </div>
         </div>
       </header>
@@ -151,7 +151,7 @@ const App: React.FC = () => {
           `}>
             <input 
               type="file" 
-              accept="video/mp4" 
+              accept="video/mp4, video/mkv, video/webm" 
               onChange={handleFileChange}
               className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10"
             />

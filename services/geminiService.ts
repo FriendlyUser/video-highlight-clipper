@@ -23,6 +23,19 @@ export class GeminiService {
       Ensure the clips are between 15 to 60 seconds long.
       Return the response in strict JSON format.
     `;
+    // const prompt = `
+    //   Act as an expert Teamfight Tactics (TFT) video editor. Analyze this gameplay video and extract up to 5 of the most intense "late-game" combat highlights.
+
+    //   **Selection Criteria:**
+    //   1.  **Late Game Focus:** Prioritize clips from the final 25% of the video (Stage 5, 6, or final showdowns). Look for high-level boards (level 8/9/10), 3-star high-cost units, or "capped" boards.
+    //   2.  **Full Fight Integrity:** Each clip MUST capture the entire combat interaction.
+    //       -   **Start:** 2-3 seconds before the first attack happens (during the final moments of positioning).
+    //       -   **End:** 2-3 seconds after the round concludes and Little Legend damage is dealt.
+    //   3.  **Viral Potential:** Prioritize close calls, massive area-of-effect (AOE) wipes, or "clutch" victories.
+
+    //   **Output Constraints:**
+    //   -   Clip Duration: 15 to 60 seconds.
+    // `;
 
     const response = await this.ai.models.generateContent({
       model: model,
